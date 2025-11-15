@@ -55,7 +55,7 @@ Answers:
 “Which models and markets drive BMW’s performance?”
 
 Page 3 – Resolution: Model Performance
-
+https://github.com/Jeswin07/BMWdashboard/blob/main/BMW%20pref%20by%20model.png
 Purpose: Detailed view of a selected model’s performance across regions & years.
 
 Highlights:
