@@ -29,7 +29,7 @@ This structure ensures efficient filtering, aggregation, and reporting.
   Visualizations & Insights
   
 Page 1 – Introduction: Global Overview
-
+https://github.com/Jeswin07/BMWdashboard/blob/main/BMW%20Global%20Overview.png
 Purpose: High-level snapshot of BMW’s worldwide sales performance (2020–2024).
 
 Highlights:
