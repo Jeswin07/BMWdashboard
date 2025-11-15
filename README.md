@@ -42,7 +42,7 @@ Answers:
  “How has BMW performed globally, and which regions lead the market?”
 
 Page 2 – Conflict: Regional & Model Insights
-
+https://github.com/Jeswin07/BMWdashboard/blob/main/BMW%20Revenue%20Trends.png
 Purpose: Deep dive into model, market, and revenue trends.
 
 Highlights:
