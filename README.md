@@ -1,8 +1,10 @@
   Project Overview
+  
 BMW Global Performance Insights is a Power BI project focused on analyzing BMW’s global sales to uncover performance patterns, highlight regional trends, and deliver clear, actionable insights using data storytelling principles.
 The report follows the Introduction → Conflict → Resolution narrative model, transforming raw sales data into meaningful business decisions.
 
   Objectives
+  
 Analyze BMW’s worldwide sales performance across regions and years.
 Identify top-performing models and high-performing markets.
 Visualize sales growth trends and YOY (Year-over-Year) performance.
@@ -10,6 +12,7 @@ Apply design & storytelling principles for clarity and insight.
 Ensure ethical, transparent, and accessible data visualization practices.
 
   Data Modeling
+  
 The data model uses a Star Schema:
 Fact Table: fact_Sales
 Dimension Tables: dim_model, dim_channel, dim_Calender, dim_country
@@ -21,6 +24,7 @@ CountryID → dim_country
 This structure ensures efficient filtering, aggregation, and reporting.
 
   Visualizations & Insights
+  
 Page 1 – Introduction: Global Overview
 
 Purpose: High-level snapshot of BMW’s worldwide sales performance (2020–2024).
@@ -70,6 +74,7 @@ Custom neutral background for clean presentation
 Emphasis on narrative flow through all report pages
 
   Key DAX Measures
+  
 Measure	Formula	Purpose
 Total Sales	SUM(fact_Sales[Revenue])	Total revenue
 Total Quantity	SUM(fact_Sales[UnitsSold])	Total units sold
@@ -79,6 +84,7 @@ Sales Rank	RANKX(ALL(dim_Products[ProductName]), [Total Sales], , DESC)	Model ra
 Formatted Revenue	FORMAT([Revenue]/1000000, "$0.0M")	Revenue in millions
 
   Ethical & Accessibility Considerations
+  
 Avoided 3D charts and visual clutter
 Accurate scale representation
 Transparent labels, legends, and filter indicators
@@ -86,12 +92,14 @@ Colorblind-friendly palette for accessibility
 Clean, interpretable visuals for unbiased reporting
 
   Tools & Environment
+  
 Tool / Software	Purpose
 Power BI Desktop	Data modeling, DAX, dashboard creation
 Excel/CSV	Source data & initial preprocessing
 Power Query	ETL: Cleaning & transforming data
 
   Conclusion
+  
 The BMW Global Performance Insights Dashboard transforms complex sales data into a compelling narrative that helps decision-makers:
 Understand global sales performance
 Identify high-growth and underperforming regions
@@ -99,7 +107,8 @@ Analyze model-level contributions
 Plan strategic initiatives backed by data
 This project demonstrates the power of combining data modeling, visualization, and storytelling to drive meaningful business insights.
 
-Author
+  Author
+  
 Created by: Jeswin K R
 Tool: Microsoft Power BI Desktop
 Date: October 2025
